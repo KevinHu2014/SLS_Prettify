@@ -1,0 +1,10 @@
+var i = 0;
+var arr = ["https://sls.weco.net/node/28476","https://sls.weco.net/node/28477","https://sls.weco.net/node/28478","https://sls.weco.net/node/28479","https://sls.weco.net/node/28480","https://sls.weco.net/node/28481","https://sls.weco.net/node/28482","https://sls.weco.net/node/28484","https://sls.weco.net/node/28485","https://sls.weco.net/node/28486","https://sls.weco.net/node/28487","https://sls.weco.net/node/28488","https://sls.weco.net/node/28489","https://sls.weco.net/node/28490","https://sls.weco.net/node/28491","https://sls.weco.net/node/28492","https://sls.weco.net/node/28494","https://sls.weco.net/node/28496","https://sls.weco.net/node/28495","https://sls.weco.net/node/28497","https://sls.weco.net/node/28499","https://sls.weco.net/node/28500","https://sls.weco.net/node/28501","https://sls.weco.net/node/28502","https://sls.weco.net/node/28503","https://sls.weco.net/node/28504","https://sls.weco.net/node/28505","https://sls.weco.net/node/28483","https://sls.weco.net/node/28506","https://sls.weco.net/node/28507","https://sls.weco.net/node/28508","https://sls.weco.net/node/28498","https://sls.weco.net/node/28510","https://sls.weco.net/node/28493","https://sls.weco.net/node/28512","https://sls.weco.net/node/28511","https://sls.weco.net/node/28513","https://sls.weco.net/node/28514","https://sls.weco.net/node/28515","https://sls.weco.net/node/28516","https://sls.weco.net/node/28517","https://sls.weco.net/node/28518","https://sls.weco.net/node/28522","https://sls.weco.net/node/28523","https://sls.weco.net/node/28519","https://sls.weco.net/node/28524","https://sls.weco.net/node/28525","https://sls.weco.net/node/28526","https://sls.weco.net/node/28527","https://sls.weco.net/node/28528","https://sls.weco.net/node/28530","https://sls.weco.net/node/28529","https://sls.weco.net/node/28509","https://sls.weco.net/node/28532","https://sls.weco.net/node/28541","https://sls.weco.net/node/28542"];
+while(i<56){
+    var Frame = document.createElement("Iframe");
+    Frame.src = arr[i];
+    Frame.width = "90%";
+    Frame.height = "500px";
+    document.body.appendChild(Frame);
+    i=i+1;
+    }
