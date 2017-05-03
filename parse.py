@@ -14,11 +14,11 @@ s = ""
 i = 0
 # # #可以抓到所有的u tag
 for child in  soup.select('span[class=UFICommentBody] a'):
-     print child.get_text()
+     #print child.get_text()
      i = i + 1
-     print i
-     # s = s + "\"" + child.get_text() + "\","
+     #print i
+     s = s + "\"" + child.get_text() + "\","
 
-# print s
+print s
 #print content
 #print str(content).decode("unicode–escape")
